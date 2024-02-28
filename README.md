@@ -1,14 +1,18 @@
-# US-_visa_Approval_prediction
+# US-Visa-Approval-Prediction
 
-git add .
+## GIT commands
 
-git commit -m "Updated"
-
-git push origin main
-
-
+``` bash
 conda create -n visa python=3.8 -y
 
 conda activate visa
 
 pip install -r requirements.txt
+```
+``` bash
+git add .
+
+git commit -m "Updated"
+
+git push origin main
+```

@@ -14,6 +14,7 @@ from_root
 evidently==0.2.8
 dill
 PyYAML
+notebook
 neuro_mf
 boto3
 mypy-boto3-s3
@@ -22,4 +23,8 @@ fastapi
 uvicorn
 jinja2
 python-multipart
+from_root 
+datetime
+MongoClient
+
 -e .
