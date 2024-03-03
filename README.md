@@ -4,28 +4,29 @@
 
 ``` bash
 conda create -n visa python=3.8 -y
-````
+```
 
-````bash
+```bash
 conda activate visa
 ```
 
-``` bash
+```bash
 pip install -r requirements.txt
 ```
 ## How to run?
 
-``` bash
+```bash
 git add .
 ```
 
-``` bash
+```bash
 git commit -m "Updated"
 ```
 
-``` bash
+```bash
 git push origin main
 ```
+
 ## Workflow
 1. constant
 2. config_entity
@@ -36,7 +37,7 @@ git push origin main
 
 ## Export the environment variable
 
-``` bash
+```bash
 export MONGODB_URL="mongodb+srv://<username>:<password>...."
 ```
 
