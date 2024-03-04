@@ -1,7 +1,6 @@
 # US-Visa-Approval-Prediction
 
-## GIT commands
-
+## How to run?
 ``` bash
 conda create -n visa python=3.8 -y
 ```
@@ -13,7 +12,7 @@ conda activate visa
 ```bash
 pip install -r requirements.txt
 ```
-## How to run?
+## ## GIT commands
 
 ```bash
 git add .
