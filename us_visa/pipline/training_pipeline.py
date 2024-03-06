@@ -57,7 +57,7 @@ class TrainPipeline:
         """
         try:
             data_ingestion_artifact = self.start_data_ingestion()
-            data_validation_artifact = self.start_data_validation(data_ingestion_artifact=data_ingestion_artifact)
+            #data_validation_artifact = self.start_data_validation(data_ingestion_artifact=data_ingestion_artifact)
 
         
         except Exception as e:

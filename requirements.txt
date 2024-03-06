@@ -25,6 +25,5 @@ jinja2
 python-multipart
 from_root 
 datetime
-#MongoClient
-
+certifi
 -e .
