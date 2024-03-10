@@ -15,6 +15,17 @@ class TargetValueMapping:
     def reverse_mapping(self):
         mapping_response = self._asdict()
         return dict(zip(mapping_response.values(),mapping_response.keys()))
+
+
+class USvisaModel:
+    def __init__(self, preprocessing_object: Pipeline, trained_model_object: object):
+        """
+        :param preprocessing_object: Input Object of preprocesser
+        :param trained_model_object: Input Object of trained model 
+        """
+        self.preprocessing_object = preprocessing_object
+        self.trained_model_object = trained_model_object
+
     
 
 
